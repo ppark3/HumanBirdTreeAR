@@ -22,3 +22,6 @@ Currently, the application has only been tested on iOS devices, but it should wo
 - If you do not want to go through the hassle of scaling and matching these models yourself, feel free to search for and use the models that I used as well as their scale metadata.
 ![image](https://user-images.githubusercontent.com/31756724/120035425-980aa480-bfcc-11eb-8039-1f79cc77f4de.png)
 ![image](https://user-images.githubusercontent.com/31756724/120035982-6c3bee80-bfcd-11eb-9c55-f32fee3ac99d.png)
+
+## Demo
+https://user-images.githubusercontent.com/31756724/120041103-b45f0f00-bfd5-11eb-93c4-c9474e99f51f.mp4
