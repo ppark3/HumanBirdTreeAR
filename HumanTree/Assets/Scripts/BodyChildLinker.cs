@@ -43,7 +43,7 @@ public class BodyChildLinker : MonoBehaviour
         }
         
         children[0].transform.position = head.transform.position + new Vector3(0, 0.25f, 0);
-        children[2].transform.position = leftShoulder.transform.position + new Vector3(0.17f, 0.12f, 0);
+        children[2].transform.position = leftShoulder.transform.position + new Vector3(0.2f, 0.12f, 0);
         children[3].transform.position = rightHand.transform.position + new Vector3(0f, 0.15f, 0);
 
         children[1].transform.localPosition = new Vector3(0.5f, -1f, 0);
