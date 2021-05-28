@@ -1,0 +1,627 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 UnityEngine.Material GLTFast.DefaultMaterialGenerator::GetPbrMetallicRoughnessMaterial(System.Boolean)
+extern void DefaultMaterialGenerator_GetPbrMetallicRoughnessMaterial_m7606DAB174E7A92E551E68E4490DB20E84486995 (void);
+// 0x00000002 UnityEngine.Material GLTFast.DefaultMaterialGenerator::GetPbrSpecularGlossinessMaterial(System.Boolean)
+extern void DefaultMaterialGenerator_GetPbrSpecularGlossinessMaterial_m583A16AFF770744C49148A3F13D0501512A09AF8 (void);
+// 0x00000003 UnityEngine.Material GLTFast.DefaultMaterialGenerator::GetUnlitMaterial(System.Boolean)
+extern void DefaultMaterialGenerator_GetUnlitMaterial_m63A4CCC6B7F28650768865572DC7260E0477EE1C (void);
+// 0x00000004 UnityEngine.Material GLTFast.DefaultMaterialGenerator::GenerateMaterial(GLTFast.Schema.Material,GLTFast.Schema.Texture[],UnityEngine.Texture2D[])
+extern void DefaultMaterialGenerator_GenerateMaterial_m553FA1ADE7DC7FC8C9A32CE99C9069D46A4075B6 (void);
+// 0x00000005 UnityEngine.Material GLTFast.DefaultMaterialGenerator::GenerateMaterial(GLTFast.Schema.Material,GLTFast.Schema.Texture[],UnityEngine.Texture2D[],System.String)
+extern void DefaultMaterialGenerator_GenerateMaterial_mAA5CAA696ED529282F8317DE2D59EF0D7B2594D8 (void);
+// 0x00000006 System.Boolean GLTFast.DefaultMaterialGenerator::TrySetTexture(GLTFast.Schema.TextureInfo,UnityEngine.Material,System.Int32,GLTFast.Schema.Texture[],UnityEngine.Texture2D[])
+extern void DefaultMaterialGenerator_TrySetTexture_m90F309B442A43CC8CBF8862B332B3E11BF00E678 (void);
+// 0x00000007 System.Void GLTFast.DefaultMaterialGenerator::TrySetTextureTransform(GLTFast.Schema.TextureInfo,UnityEngine.Material,System.Int32)
+extern void DefaultMaterialGenerator_TrySetTextureTransform_m68D3BFBA607581CDDABCF591CA017F943A463ACA (void);
+// 0x00000008 System.Void GLTFast.DefaultMaterialGenerator::.ctor()
+extern void DefaultMaterialGenerator__ctor_m07C20B0EF349E7CA39779399F257BA7A97E34BE9 (void);
+// 0x00000009 System.Void GLTFast.DefaultMaterialGenerator::.cctor()
+extern void DefaultMaterialGenerator__cctor_m5A06A63D15661E1717169C0ECB4AF5A55D986D2F (void);
+// 0x0000000A System.Void GLTFast.DeferTimer::.ctor(System.Single)
+extern void DeferTimer__ctor_mA31D202A08A83BE1FA5A15CFE62EE96BAC6430FE (void);
+// 0x0000000B System.Void GLTFast.DeferTimer::Reset()
+extern void DeferTimer_Reset_m0733E5E6C83A0C7D043C726A48C91A6A7DF5DD1C (void);
+// 0x0000000C System.Boolean GLTFast.DeferTimer::ShouldDefer()
+extern void DeferTimer_ShouldDefer_mAF8DCA7EB0D61F4A56EDF4AB6F1126ADF254C7AD (void);
+// 0x0000000D System.Void GLTFast.GlbAsset::LoadContentPrimary(UnityEngine.Networking.DownloadHandler)
+extern void GlbAsset_LoadContentPrimary_mAC0AC83A3B168FC20063F98F18FA1F704F9B2CDD (void);
+// 0x0000000E System.Void GLTFast.GlbAsset::.ctor()
+extern void GlbAsset__ctor_m48521F0C6132C0355198C84DCD32B4B3937C1A09 (void);
+// 0x0000000F System.Void GLTFast.GlbBinChunk::.ctor(System.Int32,System.UInt32)
+extern void GlbBinChunk__ctor_m24771AA604222A7C5D55C9D300314AE4E192B277 (void);
+// 0x00000010 System.Boolean GLTFast.GLTFast::get_LoadingError()
+extern void GLTFast_get_LoadingError_mC879253F162D8FB8C9584BE1FC50097BA9686786 (void);
+// 0x00000011 System.Void GLTFast.GLTFast::set_LoadingError(System.Boolean)
+extern void GLTFast_set_LoadingError_m7844E73F8A9EDAEAB7FD17386F5992A7375B8026 (void);
+// 0x00000012 System.String GLTFast.GLTFast::GetUriBase(System.String)
+extern void GLTFast_GetUriBase_m9069A9015671E8063597B2F1A8D5C8607FBD8CA2 (void);
+// 0x00000013 System.Void GLTFast.GLTFast::.ctor()
+extern void GLTFast__ctor_mF482096A40897854604A66DA2B39351E55EC94B7 (void);
+// 0x00000014 System.Void GLTFast.GLTFast::ParseJsonAndLoadBuffers(System.String,System.String)
+extern void GLTFast_ParseJsonAndLoadBuffers_m08BB4057C60D51014FC296DB0F0F6369EFA5DBEA (void);
+// 0x00000015 GLTFast.Schema.Root GLTFast.GLTFast::ParseJson(System.String)
+extern void GLTFast_ParseJson_mA2A3B152DE123F5EA69E8522C55604EB581F29B0 (void);
+// 0x00000016 System.Boolean GLTFast.GLTFast::CheckExtensionSupport(GLTFast.Schema.Root)
+extern void GLTFast_CheckExtensionSupport_m3339FAF51A2BA66EA19E4BA098CB8A505D526FA1 (void);
+// 0x00000017 System.Void GLTFast.GLTFast::LoadGltf(System.String,System.String)
+extern void GLTFast_LoadGltf_m748DE247D0A8A14FC4F84A73666E4300B7D32668 (void);
+// 0x00000018 System.Void GLTFast.GLTFast::LoadImages(System.String)
+extern void GLTFast_LoadImages_mEC6290EDF81A3A83F736F01BCA955553BEEA7CD4 (void);
+// 0x00000019 System.Collections.IEnumerator GLTFast.GLTFast::WaitForBufferDownloads()
+extern void GLTFast_WaitForBufferDownloads_m65ABF53065E8DAE14F63063817C09B18010B1BAE (void);
+// 0x0000001A System.Collections.IEnumerator GLTFast.GLTFast::WaitForTextureDownloads()
+extern void GLTFast_WaitForTextureDownloads_m5B73F04B5DE96EDE57F34F08EF64B8E7C3E2585B (void);
+// 0x0000001B System.Boolean GLTFast.GLTFast::InstanciateGltf(UnityEngine.Transform)
+extern void GLTFast_InstanciateGltf_m26158CC3C7A8E816C5D35253980682466A457BA9 (void);
+// 0x0000001C System.Void GLTFast.GLTFast::LoadBuffer(System.Int32,System.String)
+extern void GLTFast_LoadBuffer_m8223B81698DD2AA5D46DB8D2275610B29DC924BF (void);
+// 0x0000001D System.Byte[] GLTFast.GLTFast::DecodeEmbedBuffer(System.String)
+extern void GLTFast_DecodeEmbedBuffer_mC73E885AB1825AAF3E6F65D574B381364CDA8A75 (void);
+// 0x0000001E System.Byte[] GLTFast.GLTFast::DecodeEmbedBuffer(System.String,System.String&)
+extern void GLTFast_DecodeEmbedBuffer_m18A17DCB5BFB37AE462CCE251BA82A46C6BBCD10 (void);
+// 0x0000001F System.Void GLTFast.GLTFast::LoadTexture(System.Int32,System.String)
+extern void GLTFast_LoadTexture_m41B04A05DF0CCBD0664DACE5BA292C8722FE218C (void);
+// 0x00000020 System.Boolean GLTFast.GLTFast::LoadGlb(System.Byte[],System.String)
+extern void GLTFast_LoadGlb_m9F0D8145668E1F920288EF281D2211B602119F03 (void);
+// 0x00000021 System.Byte[] GLTFast.GLTFast::GetBuffer(System.Int32)
+extern void GLTFast_GetBuffer_m4A47D8D4EA941F4EEBCB207BCF2DE16773973D1E (void);
+// 0x00000022 Unity.Collections.NativeSlice`1<System.Byte> GLTFast.GLTFast::GetBufferView(GLTFast.Schema.BufferView)
+extern void GLTFast_GetBufferView_m89DABA005EBDC208B8B3F6815CCE1FDB7AB4FCA1 (void);
+// 0x00000023 System.Collections.IEnumerator GLTFast.GLTFast::Prepare()
+extern void GLTFast_Prepare_m6E42D98254EA7B5FCCC1AAABFF1906D5F9A997E5 (void);
+// 0x00000024 System.Void GLTFast.GLTFast::DisposeBuffers()
+extern void GLTFast_DisposeBuffers_mC29A7919595A700D4EBC22CC24984C20734C81B1 (void);
+// 0x00000025 System.Void GLTFast.GLTFast::CreateGameObjects(GLTFast.Schema.Root,UnityEngine.Transform)
+extern void GLTFast_CreateGameObjects_m1B3AE12F2FCA185D1A63F46E7DDC4A6F57A66634 (void);
+// 0x00000026 System.Void GLTFast.GLTFast::CreateTexturesFromBuffers(GLTFast.Schema.Image[],GLTFast.Schema.BufferView[],System.Collections.Generic.List`1<GLTFast.GLTFast/ImageCreateContext>)
+extern void GLTFast_CreateTexturesFromBuffers_m5F0B5FE6540A10F23BB1C18FEF5987221AD64520 (void);
+// 0x00000027 UnityEngine.Texture2D GLTFast.GLTFast::CreateEmptyTexture(GLTFast.Schema.Image,System.Int32)
+extern void GLTFast_CreateEmptyTexture_m204F2185DF226E7234981AD128C520592DA437BA (void);
+// 0x00000028 System.Void GLTFast.GLTFast::Destroy()
+extern void GLTFast_Destroy_m08A400458F0A0077B6488A94533F755B708985B9 (void);
+// 0x00000029 System.Void GLTFast.GLTFast::PreparePrimitives(GLTFast.Schema.Root)
+extern void GLTFast_PreparePrimitives_mBB8F3449C517B5D58C1828278DED7E064F3157D8 (void);
+// 0x0000002A System.Void GLTFast.GLTFast::PreparePrimitive(GLTFast.Schema.Root,GLTFast.Schema.Mesh,GLTFast.Schema.MeshPrimitive,GLTFast.GLTFast/PrimitiveCreateContext&)
+extern void GLTFast_PreparePrimitive_m0BDA1237EAF920FAF60780381A7E53CD8ACAB1C5 (void);
+// 0x0000002B System.Void GLTFast.GLTFast::PreparePrimitiveDraco(GLTFast.Schema.Root,GLTFast.Schema.Mesh,GLTFast.Schema.MeshPrimitive,GLTFast.GLTFast/PrimitiveDracoCreateContext&)
+extern void GLTFast_PreparePrimitiveDraco_m6C6D38DB2F3E4339CB3D823E07D1BCD2621CAF05 (void);
+// 0x0000002C System.Void GLTFast.GLTFast::OnMeshesLoaded(GLTFast.Schema.Mesh)
+extern void GLTFast_OnMeshesLoaded_m1CA3ADA63A845512B09465E449346F080D50E5B6 (void);
+// 0x0000002D UnityEngine.Vector2[] GLTFast.GLTFast::GetUvsJob(GLTFast.Schema.Root,System.Int32,System.Byte[]&,System.Nullable`1<Unity.Jobs.JobHandle>&,System.Runtime.InteropServices.GCHandle&)
+extern void GLTFast_GetUvsJob_m9F0DBE5CFB45EC7734697762AB21F9921FA3A6FD (void);
+// 0x0000002E System.Void GLTFast.GLTFast::GetColorsJob(GLTFast.Schema.Root,System.Int32,System.Byte[]&,UnityEngine.Color32[]&,UnityEngine.Color[]&,System.Nullable`1<Unity.Jobs.JobHandle>&,System.Runtime.InteropServices.GCHandle&)
+extern void GLTFast_GetColorsJob_mCD97257876EC72046A92D85F61E2C0FE53F2AD30 (void);
+// 0x0000002F System.Boolean GLTFast.GLTFast::IsKnownImageMimeType(System.String)
+extern void GLTFast_IsKnownImageMimeType_m4FB19CD079CE2345E82DF68C6BBB4D1DD9EFD54B (void);
+// 0x00000030 System.Boolean GLTFast.GLTFast::IsKnownImageFileExtension(System.String)
+extern void GLTFast_IsKnownImageFileExtension_m0A35C14A810B12E232B2F486F48A725007AEAB38 (void);
+// 0x00000031 System.Void GLTFast.GLTFast::.cctor()
+extern void GLTFast__cctor_m42D47E9DF03EC859DEE3ABDA4303EE93970B08C0 (void);
+// 0x00000032 System.Void GLTFast.GLTFast/Primitive::.ctor(UnityEngine.Mesh,System.Int32)
+extern void Primitive__ctor_m453B39E3CCFF0C0C89A85F74D688DDA32FD1A087 (void);
+// 0x00000033 System.Boolean GLTFast.GLTFast/PrimitiveCreateContextBase::get_IsCompleted()
+// 0x00000034 System.Nullable`1<GLTFast.GLTFast/Primitive> GLTFast.GLTFast/PrimitiveCreateContextBase::CreatePrimitive()
+// 0x00000035 System.Void GLTFast.GLTFast/PrimitiveCreateContextBase::.ctor()
+extern void PrimitiveCreateContextBase__ctor_mE5D9DCE77EC91C621E3295B0ED052430FE7AD75A (void);
+// 0x00000036 System.Boolean GLTFast.GLTFast/PrimitiveCreateContext::get_IsCompleted()
+extern void PrimitiveCreateContext_get_IsCompleted_mD8120AA74FD19564F05451EFB3DF5E5A0CB031D7 (void);
+// 0x00000037 System.Nullable`1<GLTFast.GLTFast/Primitive> GLTFast.GLTFast/PrimitiveCreateContext::CreatePrimitive()
+extern void PrimitiveCreateContext_CreatePrimitive_m7810F6C54E25D807A0FF7BC36AA7884B52532D11 (void);
+// 0x00000038 System.Void GLTFast.GLTFast/PrimitiveCreateContext::Dispose()
+extern void PrimitiveCreateContext_Dispose_m0C5255058F29EF8B96D8F7DAE3AAAD1204AA8910 (void);
+// 0x00000039 System.Void GLTFast.GLTFast/PrimitiveCreateContext::.ctor()
+extern void PrimitiveCreateContext__ctor_m61F1673E7556EFE5872C8E79B99F8A1F88E1F917 (void);
+// 0x0000003A System.Boolean GLTFast.GLTFast/PrimitiveDracoCreateContext::get_IsCompleted()
+extern void PrimitiveDracoCreateContext_get_IsCompleted_m5DF87AFE5F8513FFF6842F62A00062169A33A810 (void);
+// 0x0000003B System.Nullable`1<GLTFast.GLTFast/Primitive> GLTFast.GLTFast/PrimitiveDracoCreateContext::CreatePrimitive()
+extern void PrimitiveDracoCreateContext_CreatePrimitive_mD72BFBA01ECFF7098FCD255C74EC2E8B950A55C6 (void);
+// 0x0000003C System.Void GLTFast.GLTFast/PrimitiveDracoCreateContext::.ctor()
+extern void PrimitiveDracoCreateContext__ctor_mFB5BE767DA74526D2C565CA4A7628E07129E9E79 (void);
+// 0x0000003D System.Void GLTFast.GLTFast/<WaitForBufferDownloads>d__35::.ctor(System.Int32)
+extern void U3CWaitForBufferDownloadsU3Ed__35__ctor_m3123ADC80BCB4AB8E26CC803363BDD535203D8E4 (void);
+// 0x0000003E System.Void GLTFast.GLTFast/<WaitForBufferDownloads>d__35::System.IDisposable.Dispose()
+extern void U3CWaitForBufferDownloadsU3Ed__35_System_IDisposable_Dispose_m10E5F3B70C61AB8F33B40E5D05C2FB3D4F02D6F1 (void);
+// 0x0000003F System.Boolean GLTFast.GLTFast/<WaitForBufferDownloads>d__35::MoveNext()
+extern void U3CWaitForBufferDownloadsU3Ed__35_MoveNext_m56123D345B9E521D6480543754F321672C4DDC6E (void);
+// 0x00000040 System.Void GLTFast.GLTFast/<WaitForBufferDownloads>d__35::<>m__Finally1()
+extern void U3CWaitForBufferDownloadsU3Ed__35_U3CU3Em__Finally1_mAD7A11390C4E77ADF8AB8D68FB32D20DDA097975 (void);
+// 0x00000041 System.Object GLTFast.GLTFast/<WaitForBufferDownloads>d__35::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWaitForBufferDownloadsU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2FFE653CD029BE215FD306341C31E5913073BA8F (void);
+// 0x00000042 System.Void GLTFast.GLTFast/<WaitForBufferDownloads>d__35::System.Collections.IEnumerator.Reset()
+extern void U3CWaitForBufferDownloadsU3Ed__35_System_Collections_IEnumerator_Reset_mCB276B8D9E4040BD26792A5A4987E5AEB994D4A7 (void);
+// 0x00000043 System.Object GLTFast.GLTFast/<WaitForBufferDownloads>d__35::System.Collections.IEnumerator.get_Current()
+extern void U3CWaitForBufferDownloadsU3Ed__35_System_Collections_IEnumerator_get_Current_mEA4A227AB0A33CFDA34904EDA30B374692E98676 (void);
+// 0x00000044 System.Void GLTFast.GLTFast/<WaitForTextureDownloads>d__36::.ctor(System.Int32)
+extern void U3CWaitForTextureDownloadsU3Ed__36__ctor_m7A40A4419425581825555EA90F0D570F720A4173 (void);
+// 0x00000045 System.Void GLTFast.GLTFast/<WaitForTextureDownloads>d__36::System.IDisposable.Dispose()
+extern void U3CWaitForTextureDownloadsU3Ed__36_System_IDisposable_Dispose_mBF27A75487A15038C992B6F0E8D6DB336F822ADD (void);
+// 0x00000046 System.Boolean GLTFast.GLTFast/<WaitForTextureDownloads>d__36::MoveNext()
+extern void U3CWaitForTextureDownloadsU3Ed__36_MoveNext_m284A375C59E64E224D774CD1E3A41AF790C5DF0C (void);
+// 0x00000047 System.Void GLTFast.GLTFast/<WaitForTextureDownloads>d__36::<>m__Finally1()
+extern void U3CWaitForTextureDownloadsU3Ed__36_U3CU3Em__Finally1_mFCD955F234BC29F0C8BB500F7CADC78CF6C79DDC (void);
+// 0x00000048 System.Object GLTFast.GLTFast/<WaitForTextureDownloads>d__36::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWaitForTextureDownloadsU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC336E5AE40C1838ECCD10F887E51F10C6008FDDF (void);
+// 0x00000049 System.Void GLTFast.GLTFast/<WaitForTextureDownloads>d__36::System.Collections.IEnumerator.Reset()
+extern void U3CWaitForTextureDownloadsU3Ed__36_System_Collections_IEnumerator_Reset_mF7BDD4F047C9ED15CE591CE141717D593D1E6E06 (void);
+// 0x0000004A System.Object GLTFast.GLTFast/<WaitForTextureDownloads>d__36::System.Collections.IEnumerator.get_Current()
+extern void U3CWaitForTextureDownloadsU3Ed__36_System_Collections_IEnumerator_get_Current_m9B8255196FCC05D5B41FDAFABB5FB4A49E12360D (void);
+// 0x0000004B System.Void GLTFast.GLTFast/<Prepare>d__47::.ctor(System.Int32)
+extern void U3CPrepareU3Ed__47__ctor_mF9F34BE6956306F85DABB629784CF725C837811F (void);
+// 0x0000004C System.Void GLTFast.GLTFast/<Prepare>d__47::System.IDisposable.Dispose()
+extern void U3CPrepareU3Ed__47_System_IDisposable_Dispose_m07F345EF5FCE280C99D1B43CC2F874DA753F7C6C (void);
+// 0x0000004D System.Boolean GLTFast.GLTFast/<Prepare>d__47::MoveNext()
+extern void U3CPrepareU3Ed__47_MoveNext_m6B44746A47522E5361BB8FE103E1341A86BF992A (void);
+// 0x0000004E System.Void GLTFast.GLTFast/<Prepare>d__47::<>m__Finally1()
+extern void U3CPrepareU3Ed__47_U3CU3Em__Finally1_m86BED6F1570C6EF295C13C874CC62FA3925CEFAA (void);
+// 0x0000004F System.Object GLTFast.GLTFast/<Prepare>d__47::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CPrepareU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3EAFE4B0DA98BDFDFEBDF5A45A41756861CE1A3E (void);
+// 0x00000050 System.Void GLTFast.GLTFast/<Prepare>d__47::System.Collections.IEnumerator.Reset()
+extern void U3CPrepareU3Ed__47_System_Collections_IEnumerator_Reset_m9B9AD70DAF21BB2C4941AD097F4DC829ECE54FF6 (void);
+// 0x00000051 System.Object GLTFast.GLTFast/<Prepare>d__47::System.Collections.IEnumerator.get_Current()
+extern void U3CPrepareU3Ed__47_System_Collections_IEnumerator_get_Current_m5C76D0B8C7869E7A7D189BBC2C73FC14F9272BC5 (void);
+// 0x00000052 System.Void GLTFast.GltfAsset::Start()
+extern void GltfAsset_Start_mD4823604C1B7CE4BB6985CCCE515BF96AFA6FB8F (void);
+// 0x00000053 System.Void GLTFast.GltfAsset::Load(System.String,GLTFast.IDeferAgent)
+extern void GltfAsset_Load_m8B1D9EF306719E99B16AB22A81DFC9D7033FA804 (void);
+// 0x00000054 System.Collections.IEnumerator GLTFast.GltfAsset::LoadRoutine()
+extern void GltfAsset_LoadRoutine_mB94C1B54B353EF9690EE05C0D79444E28467A303 (void);
+// 0x00000055 System.Collections.IEnumerator GLTFast.GltfAsset::LoadContent(UnityEngine.Networking.DownloadHandler)
+extern void GltfAsset_LoadContent_m7DA91B2E893265F95F0AF23325241882768D5963 (void);
+// 0x00000056 System.Void GLTFast.GltfAsset::LoadContentPrimary(UnityEngine.Networking.DownloadHandler)
+extern void GltfAsset_LoadContentPrimary_m3468C699AAD0E4B7803E56184B0C1419AA309499 (void);
+// 0x00000057 System.Collections.IEnumerator GLTFast.GltfAsset::WaitForLoaded()
+extern void GltfAsset_WaitForLoaded_mD3E808D7B6EF7C3EE980939BC1BC229182B53F13 (void);
+// 0x00000058 System.Void GLTFast.GltfAsset::OnDestroy()
+extern void GltfAsset_OnDestroy_mED5B998014FA6CBB715CD2D6F6E495813FBA94CE (void);
+// 0x00000059 System.Void GLTFast.GltfAsset::.ctor()
+extern void GltfAsset__ctor_m95773FF2F341D3874FF8F2CEECA90F676327454C (void);
+// 0x0000005A System.Void GLTFast.GltfAsset/<LoadRoutine>d__9::.ctor(System.Int32)
+extern void U3CLoadRoutineU3Ed__9__ctor_mABBE39FD9943AD2B6B268ABD79CA0B55E4324E5F (void);
+// 0x0000005B System.Void GLTFast.GltfAsset/<LoadRoutine>d__9::System.IDisposable.Dispose()
+extern void U3CLoadRoutineU3Ed__9_System_IDisposable_Dispose_mEDED3C4230F07F221FEC3A67505CF3AEAA566D16 (void);
+// 0x0000005C System.Boolean GLTFast.GltfAsset/<LoadRoutine>d__9::MoveNext()
+extern void U3CLoadRoutineU3Ed__9_MoveNext_m2E8BFD424C686E04AD371721701BA1701CECD9E7 (void);
+// 0x0000005D System.Object GLTFast.GltfAsset/<LoadRoutine>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadRoutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m232BE6CA5085EE4A8181BFB23D0E87EB71499F7E (void);
+// 0x0000005E System.Void GLTFast.GltfAsset/<LoadRoutine>d__9::System.Collections.IEnumerator.Reset()
+extern void U3CLoadRoutineU3Ed__9_System_Collections_IEnumerator_Reset_m95C9D38867432D00236EFCE8F3C907A510EF1561 (void);
+// 0x0000005F System.Object GLTFast.GltfAsset/<LoadRoutine>d__9::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadRoutineU3Ed__9_System_Collections_IEnumerator_get_Current_mD509C2DFDC178A66CCE8F53D0958C6EC17CC8963 (void);
+// 0x00000060 System.Void GLTFast.GltfAsset/<LoadContent>d__10::.ctor(System.Int32)
+extern void U3CLoadContentU3Ed__10__ctor_mF42F89255DD273104844A92345D6D2707C783157 (void);
+// 0x00000061 System.Void GLTFast.GltfAsset/<LoadContent>d__10::System.IDisposable.Dispose()
+extern void U3CLoadContentU3Ed__10_System_IDisposable_Dispose_m6B077587FDD7A4878E92FADC990C397E6268DD7D (void);
+// 0x00000062 System.Boolean GLTFast.GltfAsset/<LoadContent>d__10::MoveNext()
+extern void U3CLoadContentU3Ed__10_MoveNext_m29972C4B19BEC47833D0FC496FAA07211A2B3E3F (void);
+// 0x00000063 System.Object GLTFast.GltfAsset/<LoadContent>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CLoadContentU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD05B7FE4ABE06A1CF1A1CB4316BD7313A676CD2A (void);
+// 0x00000064 System.Void GLTFast.GltfAsset/<LoadContent>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CLoadContentU3Ed__10_System_Collections_IEnumerator_Reset_m1E961F1C36D76424B7E47BBECCCEE2A7769A0A00 (void);
+// 0x00000065 System.Object GLTFast.GltfAsset/<LoadContent>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CLoadContentU3Ed__10_System_Collections_IEnumerator_get_Current_mB28C3B94C1B9D885853A9849AF3B28FB7CF12F23 (void);
+// 0x00000066 System.Void GLTFast.GltfAsset/<WaitForLoaded>d__12::.ctor(System.Int32)
+extern void U3CWaitForLoadedU3Ed__12__ctor_m737AE7B72D7FCF6D7D811C492FDA65A4628E147E (void);
+// 0x00000067 System.Void GLTFast.GltfAsset/<WaitForLoaded>d__12::System.IDisposable.Dispose()
+extern void U3CWaitForLoadedU3Ed__12_System_IDisposable_Dispose_mE3C1448E48A2D80535A44C8F0478EEFCF6CDB35F (void);
+// 0x00000068 System.Boolean GLTFast.GltfAsset/<WaitForLoaded>d__12::MoveNext()
+extern void U3CWaitForLoadedU3Ed__12_MoveNext_mE8686517B4938501FB7C15D21DB02B1AD2F8B375 (void);
+// 0x00000069 System.Object GLTFast.GltfAsset/<WaitForLoaded>d__12::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CWaitForLoadedU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC49771774B8592B4B97BEF2E222FA9109B4674E (void);
+// 0x0000006A System.Void GLTFast.GltfAsset/<WaitForLoaded>d__12::System.Collections.IEnumerator.Reset()
+extern void U3CWaitForLoadedU3Ed__12_System_Collections_IEnumerator_Reset_m42563945B87D3B06469D340AFE4DD55D4BE2525B (void);
+// 0x0000006B System.Object GLTFast.GltfAsset/<WaitForLoaded>d__12::System.Collections.IEnumerator.get_Current()
+extern void U3CWaitForLoadedU3Ed__12_System_Collections_IEnumerator_get_Current_m1EDE68E988103B4AEF699BECDA4C1EC06D724586 (void);
+// 0x0000006C System.Void GLTFast.IDeferAgent::Reset()
+// 0x0000006D System.Boolean GLTFast.IDeferAgent::ShouldDefer()
+// 0x0000006E UnityEngine.Material GLTFast.IMaterialGenerator::GetUnlitMaterial(System.Boolean)
+// 0x0000006F UnityEngine.Material GLTFast.IMaterialGenerator::GetPbrMetallicRoughnessMaterial(System.Boolean)
+// 0x00000070 UnityEngine.Material GLTFast.IMaterialGenerator::GenerateMaterial(GLTFast.Schema.Material,GLTFast.Schema.Texture[],UnityEngine.Texture2D[],System.String)
+// 0x00000071 System.Void GLTFast.Materials.StandardShaderHelper::SetAlphaModeMask(UnityEngine.Material,GLTFast.Schema.Material)
+extern void StandardShaderHelper_SetAlphaModeMask_m8A26F85CE31F43FAA8E9C41E4EAD1C0D0F143512 (void);
+// 0x00000072 System.Void GLTFast.Materials.StandardShaderHelper::SetAlphaModeBlend(UnityEngine.Material)
+extern void StandardShaderHelper_SetAlphaModeBlend_mA4047BD1C21A4DA98705036EC32A057AF5A65143 (void);
+// 0x00000073 System.Void GLTFast.Materials.StandardShaderHelper::SetOpaqueMode(UnityEngine.Material)
+extern void StandardShaderHelper_SetOpaqueMode_mDDA5BF66CE9E981CF2489C5A53E51C115F6BCBEB (void);
+// 0x00000074 System.Void GLTFast.Materials.StandardShaderHelper::.cctor()
+extern void StandardShaderHelper__cctor_m3157A68718288A3E4EB54CE9198B03B81F444291 (void);
+// 0x00000075 System.Void GLTFast.Jobs.CreateIndicesJob::Execute()
+extern void CreateIndicesJob_Execute_m082110F5D1D9120051C9BB9BF14C6F6DAD10BBFE (void);
+// 0x00000076 System.Void GLTFast.Jobs.CreateIndicesFlippedJob::Execute()
+extern void CreateIndicesFlippedJob_Execute_m7D3DA99D26AE72AB5FB0267ECC0FA2CBCC00E772 (void);
+// 0x00000077 System.Void GLTFast.Jobs.GetIndicesUInt8Job::Execute()
+extern void GetIndicesUInt8Job_Execute_m1E1EF7047AC86369074C1DD13C64415CBB92A6E8 (void);
+// 0x00000078 System.Void GLTFast.Jobs.GetIndicesUInt16Job::Execute()
+extern void GetIndicesUInt16Job_Execute_mEDF025F9C11DC8DC25FF34C0B787B9C1D548E0DD (void);
+// 0x00000079 System.Void GLTFast.Jobs.GetIndicesUInt32Job::Execute()
+extern void GetIndicesUInt32Job_Execute_m11CF0161540DA3718FD50E55AF12D302452CEDBE (void);
+// 0x0000007A System.Void GLTFast.Jobs.GetUVsUInt8Job::Execute()
+extern void GetUVsUInt8Job_Execute_m5E90D0BAB15CD8081DD882DFEB84D38E03EC098B (void);
+// 0x0000007B System.Void GLTFast.Jobs.GetUVsUInt16Job::Execute()
+extern void GetUVsUInt16Job_Execute_m22C37E395D37CB65C69C7373EE4A1D1C9D83CA95 (void);
+// 0x0000007C System.Void GLTFast.Jobs.GetUVsFloatJob::Execute()
+extern void GetUVsFloatJob_Execute_m7192FBFE2638138736841122A2EAD9C79D4572C2 (void);
+// 0x0000007D System.Void GLTFast.Jobs.GetUVsUInt8InterleavedJob::Execute()
+extern void GetUVsUInt8InterleavedJob_Execute_mD4A8BE018AE4493C8D71E4182420E243C0D66811 (void);
+// 0x0000007E System.Void GLTFast.Jobs.GetUVsUInt16InterleavedJob::Execute()
+extern void GetUVsUInt16InterleavedJob_Execute_m6ADD4F5E6E96EDA8170E2B542B68293235A56327 (void);
+// 0x0000007F System.Void GLTFast.Jobs.GetColorsVec3FloatJob::Execute()
+extern void GetColorsVec3FloatJob_Execute_mA08BA8C628A19E20637EB91F15ED49D269E7FCD9 (void);
+// 0x00000080 System.Void GLTFast.Jobs.GetColorsVec3UInt8Job::Execute()
+extern void GetColorsVec3UInt8Job_Execute_mFD2AD0A449E654EE04A463AF01D5F9B5D2042BC5 (void);
+// 0x00000081 System.Void GLTFast.Jobs.GetColorsVec3UInt16Job::Execute()
+extern void GetColorsVec3UInt16Job_Execute_m01B173CD8333DB1B8534CDE58CEAAAD9CAE54876 (void);
+// 0x00000082 System.Void GLTFast.Jobs.GetColorsVec4UInt16Job::Execute()
+extern void GetColorsVec4UInt16Job_Execute_m4DFB35A772675A03A7B7A7BDE00FCBFB2FC4DFE3 (void);
+// 0x00000083 System.Void GLTFast.Jobs.MemCopyJob::Execute()
+extern void MemCopyJob_Execute_m8688EE53E5F2971F1CB40D48CD77869BDDA01F83 (void);
+// 0x00000084 System.Void GLTFast.Jobs.GetVector3sJob::Execute()
+extern void GetVector3sJob_Execute_m5A483D0EE74101F88E928F98708397F98ACCDDA2 (void);
+// 0x00000085 System.Void GLTFast.Jobs.GetVector4sJob::Execute()
+extern void GetVector4sJob_Execute_m88FD8073557A669523B33C9B3AAFA6BFED1DC995 (void);
+// 0x00000086 System.Void GLTFast.Jobs.GetVector2sInterleavedJob::Execute()
+extern void GetVector2sInterleavedJob_Execute_mB6AD252A8A6EA79E525C091F926E72592B2AD31F (void);
+// 0x00000087 System.Void GLTFast.Jobs.GetVector3sInterleavedJob::Execute()
+extern void GetVector3sInterleavedJob_Execute_m81BDDA306EC3D1DD7F1B1708D4A71FB1ECFBCE62 (void);
+// 0x00000088 System.Void GLTFast.Jobs.GetVector4sInterleavedJob::Execute()
+extern void GetVector4sInterleavedJob_Execute_m184C01B4C42D69B12D8388CB1AE485CDFE707B5C (void);
+static Il2CppMethodPointer s_methodPointers[136] = 
+{
+	DefaultMaterialGenerator_GetPbrMetallicRoughnessMaterial_m7606DAB174E7A92E551E68E4490DB20E84486995,
+	DefaultMaterialGenerator_GetPbrSpecularGlossinessMaterial_m583A16AFF770744C49148A3F13D0501512A09AF8,
+	DefaultMaterialGenerator_GetUnlitMaterial_m63A4CCC6B7F28650768865572DC7260E0477EE1C,
+	DefaultMaterialGenerator_GenerateMaterial_m553FA1ADE7DC7FC8C9A32CE99C9069D46A4075B6,
+	DefaultMaterialGenerator_GenerateMaterial_mAA5CAA696ED529282F8317DE2D59EF0D7B2594D8,
+	DefaultMaterialGenerator_TrySetTexture_m90F309B442A43CC8CBF8862B332B3E11BF00E678,
+	DefaultMaterialGenerator_TrySetTextureTransform_m68D3BFBA607581CDDABCF591CA017F943A463ACA,
+	DefaultMaterialGenerator__ctor_m07C20B0EF349E7CA39779399F257BA7A97E34BE9,
+	DefaultMaterialGenerator__cctor_m5A06A63D15661E1717169C0ECB4AF5A55D986D2F,
+	DeferTimer__ctor_mA31D202A08A83BE1FA5A15CFE62EE96BAC6430FE,
+	DeferTimer_Reset_m0733E5E6C83A0C7D043C726A48C91A6A7DF5DD1C,
+	DeferTimer_ShouldDefer_mAF8DCA7EB0D61F4A56EDF4AB6F1126ADF254C7AD,
+	GlbAsset_LoadContentPrimary_mAC0AC83A3B168FC20063F98F18FA1F704F9B2CDD,
+	GlbAsset__ctor_m48521F0C6132C0355198C84DCD32B4B3937C1A09,
+	GlbBinChunk__ctor_m24771AA604222A7C5D55C9D300314AE4E192B277,
+	GLTFast_get_LoadingError_mC879253F162D8FB8C9584BE1FC50097BA9686786,
+	GLTFast_set_LoadingError_m7844E73F8A9EDAEAB7FD17386F5992A7375B8026,
+	GLTFast_GetUriBase_m9069A9015671E8063597B2F1A8D5C8607FBD8CA2,
+	GLTFast__ctor_mF482096A40897854604A66DA2B39351E55EC94B7,
+	GLTFast_ParseJsonAndLoadBuffers_m08BB4057C60D51014FC296DB0F0F6369EFA5DBEA,
+	GLTFast_ParseJson_mA2A3B152DE123F5EA69E8522C55604EB581F29B0,
+	GLTFast_CheckExtensionSupport_m3339FAF51A2BA66EA19E4BA098CB8A505D526FA1,
+	GLTFast_LoadGltf_m748DE247D0A8A14FC4F84A73666E4300B7D32668,
+	GLTFast_LoadImages_mEC6290EDF81A3A83F736F01BCA955553BEEA7CD4,
+	GLTFast_WaitForBufferDownloads_m65ABF53065E8DAE14F63063817C09B18010B1BAE,
+	GLTFast_WaitForTextureDownloads_m5B73F04B5DE96EDE57F34F08EF64B8E7C3E2585B,
+	GLTFast_InstanciateGltf_m26158CC3C7A8E816C5D35253980682466A457BA9,
+	GLTFast_LoadBuffer_m8223B81698DD2AA5D46DB8D2275610B29DC924BF,
+	GLTFast_DecodeEmbedBuffer_mC73E885AB1825AAF3E6F65D574B381364CDA8A75,
+	GLTFast_DecodeEmbedBuffer_m18A17DCB5BFB37AE462CCE251BA82A46C6BBCD10,
+	GLTFast_LoadTexture_m41B04A05DF0CCBD0664DACE5BA292C8722FE218C,
+	GLTFast_LoadGlb_m9F0D8145668E1F920288EF281D2211B602119F03,
+	GLTFast_GetBuffer_m4A47D8D4EA941F4EEBCB207BCF2DE16773973D1E,
+	GLTFast_GetBufferView_m89DABA005EBDC208B8B3F6815CCE1FDB7AB4FCA1,
+	GLTFast_Prepare_m6E42D98254EA7B5FCCC1AAABFF1906D5F9A997E5,
+	GLTFast_DisposeBuffers_mC29A7919595A700D4EBC22CC24984C20734C81B1,
+	GLTFast_CreateGameObjects_m1B3AE12F2FCA185D1A63F46E7DDC4A6F57A66634,
+	GLTFast_CreateTexturesFromBuffers_m5F0B5FE6540A10F23BB1C18FEF5987221AD64520,
+	GLTFast_CreateEmptyTexture_m204F2185DF226E7234981AD128C520592DA437BA,
+	GLTFast_Destroy_m08A400458F0A0077B6488A94533F755B708985B9,
+	GLTFast_PreparePrimitives_mBB8F3449C517B5D58C1828278DED7E064F3157D8,
+	GLTFast_PreparePrimitive_m0BDA1237EAF920FAF60780381A7E53CD8ACAB1C5,
+	GLTFast_PreparePrimitiveDraco_m6C6D38DB2F3E4339CB3D823E07D1BCD2621CAF05,
+	GLTFast_OnMeshesLoaded_m1CA3ADA63A845512B09465E449346F080D50E5B6,
+	GLTFast_GetUvsJob_m9F0DBE5CFB45EC7734697762AB21F9921FA3A6FD,
+	GLTFast_GetColorsJob_mCD97257876EC72046A92D85F61E2C0FE53F2AD30,
+	GLTFast_IsKnownImageMimeType_m4FB19CD079CE2345E82DF68C6BBB4D1DD9EFD54B,
+	GLTFast_IsKnownImageFileExtension_m0A35C14A810B12E232B2F486F48A725007AEAB38,
+	GLTFast__cctor_m42D47E9DF03EC859DEE3ABDA4303EE93970B08C0,
+	Primitive__ctor_m453B39E3CCFF0C0C89A85F74D688DDA32FD1A087,
+	NULL,
+	NULL,
+	PrimitiveCreateContextBase__ctor_mE5D9DCE77EC91C621E3295B0ED052430FE7AD75A,
+	PrimitiveCreateContext_get_IsCompleted_mD8120AA74FD19564F05451EFB3DF5E5A0CB031D7,
+	PrimitiveCreateContext_CreatePrimitive_m7810F6C54E25D807A0FF7BC36AA7884B52532D11,
+	PrimitiveCreateContext_Dispose_m0C5255058F29EF8B96D8F7DAE3AAAD1204AA8910,
+	PrimitiveCreateContext__ctor_m61F1673E7556EFE5872C8E79B99F8A1F88E1F917,
+	PrimitiveDracoCreateContext_get_IsCompleted_m5DF87AFE5F8513FFF6842F62A00062169A33A810,
+	PrimitiveDracoCreateContext_CreatePrimitive_mD72BFBA01ECFF7098FCD255C74EC2E8B950A55C6,
+	PrimitiveDracoCreateContext__ctor_mFB5BE767DA74526D2C565CA4A7628E07129E9E79,
+	U3CWaitForBufferDownloadsU3Ed__35__ctor_m3123ADC80BCB4AB8E26CC803363BDD535203D8E4,
+	U3CWaitForBufferDownloadsU3Ed__35_System_IDisposable_Dispose_m10E5F3B70C61AB8F33B40E5D05C2FB3D4F02D6F1,
+	U3CWaitForBufferDownloadsU3Ed__35_MoveNext_m56123D345B9E521D6480543754F321672C4DDC6E,
+	U3CWaitForBufferDownloadsU3Ed__35_U3CU3Em__Finally1_mAD7A11390C4E77ADF8AB8D68FB32D20DDA097975,
+	U3CWaitForBufferDownloadsU3Ed__35_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m2FFE653CD029BE215FD306341C31E5913073BA8F,
+	U3CWaitForBufferDownloadsU3Ed__35_System_Collections_IEnumerator_Reset_mCB276B8D9E4040BD26792A5A4987E5AEB994D4A7,
+	U3CWaitForBufferDownloadsU3Ed__35_System_Collections_IEnumerator_get_Current_mEA4A227AB0A33CFDA34904EDA30B374692E98676,
+	U3CWaitForTextureDownloadsU3Ed__36__ctor_m7A40A4419425581825555EA90F0D570F720A4173,
+	U3CWaitForTextureDownloadsU3Ed__36_System_IDisposable_Dispose_mBF27A75487A15038C992B6F0E8D6DB336F822ADD,
+	U3CWaitForTextureDownloadsU3Ed__36_MoveNext_m284A375C59E64E224D774CD1E3A41AF790C5DF0C,
+	U3CWaitForTextureDownloadsU3Ed__36_U3CU3Em__Finally1_mFCD955F234BC29F0C8BB500F7CADC78CF6C79DDC,
+	U3CWaitForTextureDownloadsU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC336E5AE40C1838ECCD10F887E51F10C6008FDDF,
+	U3CWaitForTextureDownloadsU3Ed__36_System_Collections_IEnumerator_Reset_mF7BDD4F047C9ED15CE591CE141717D593D1E6E06,
+	U3CWaitForTextureDownloadsU3Ed__36_System_Collections_IEnumerator_get_Current_m9B8255196FCC05D5B41FDAFABB5FB4A49E12360D,
+	U3CPrepareU3Ed__47__ctor_mF9F34BE6956306F85DABB629784CF725C837811F,
+	U3CPrepareU3Ed__47_System_IDisposable_Dispose_m07F345EF5FCE280C99D1B43CC2F874DA753F7C6C,
+	U3CPrepareU3Ed__47_MoveNext_m6B44746A47522E5361BB8FE103E1341A86BF992A,
+	U3CPrepareU3Ed__47_U3CU3Em__Finally1_m86BED6F1570C6EF295C13C874CC62FA3925CEFAA,
+	U3CPrepareU3Ed__47_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3EAFE4B0DA98BDFDFEBDF5A45A41756861CE1A3E,
+	U3CPrepareU3Ed__47_System_Collections_IEnumerator_Reset_m9B9AD70DAF21BB2C4941AD097F4DC829ECE54FF6,
+	U3CPrepareU3Ed__47_System_Collections_IEnumerator_get_Current_m5C76D0B8C7869E7A7D189BBC2C73FC14F9272BC5,
+	GltfAsset_Start_mD4823604C1B7CE4BB6985CCCE515BF96AFA6FB8F,
+	GltfAsset_Load_m8B1D9EF306719E99B16AB22A81DFC9D7033FA804,
+	GltfAsset_LoadRoutine_mB94C1B54B353EF9690EE05C0D79444E28467A303,
+	GltfAsset_LoadContent_m7DA91B2E893265F95F0AF23325241882768D5963,
+	GltfAsset_LoadContentPrimary_m3468C699AAD0E4B7803E56184B0C1419AA309499,
+	GltfAsset_WaitForLoaded_mD3E808D7B6EF7C3EE980939BC1BC229182B53F13,
+	GltfAsset_OnDestroy_mED5B998014FA6CBB715CD2D6F6E495813FBA94CE,
+	GltfAsset__ctor_m95773FF2F341D3874FF8F2CEECA90F676327454C,
+	U3CLoadRoutineU3Ed__9__ctor_mABBE39FD9943AD2B6B268ABD79CA0B55E4324E5F,
+	U3CLoadRoutineU3Ed__9_System_IDisposable_Dispose_mEDED3C4230F07F221FEC3A67505CF3AEAA566D16,
+	U3CLoadRoutineU3Ed__9_MoveNext_m2E8BFD424C686E04AD371721701BA1701CECD9E7,
+	U3CLoadRoutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m232BE6CA5085EE4A8181BFB23D0E87EB71499F7E,
+	U3CLoadRoutineU3Ed__9_System_Collections_IEnumerator_Reset_m95C9D38867432D00236EFCE8F3C907A510EF1561,
+	U3CLoadRoutineU3Ed__9_System_Collections_IEnumerator_get_Current_mD509C2DFDC178A66CCE8F53D0958C6EC17CC8963,
+	U3CLoadContentU3Ed__10__ctor_mF42F89255DD273104844A92345D6D2707C783157,
+	U3CLoadContentU3Ed__10_System_IDisposable_Dispose_m6B077587FDD7A4878E92FADC990C397E6268DD7D,
+	U3CLoadContentU3Ed__10_MoveNext_m29972C4B19BEC47833D0FC496FAA07211A2B3E3F,
+	U3CLoadContentU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD05B7FE4ABE06A1CF1A1CB4316BD7313A676CD2A,
+	U3CLoadContentU3Ed__10_System_Collections_IEnumerator_Reset_m1E961F1C36D76424B7E47BBECCCEE2A7769A0A00,
+	U3CLoadContentU3Ed__10_System_Collections_IEnumerator_get_Current_mB28C3B94C1B9D885853A9849AF3B28FB7CF12F23,
+	U3CWaitForLoadedU3Ed__12__ctor_m737AE7B72D7FCF6D7D811C492FDA65A4628E147E,
+	U3CWaitForLoadedU3Ed__12_System_IDisposable_Dispose_mE3C1448E48A2D80535A44C8F0478EEFCF6CDB35F,
+	U3CWaitForLoadedU3Ed__12_MoveNext_mE8686517B4938501FB7C15D21DB02B1AD2F8B375,
+	U3CWaitForLoadedU3Ed__12_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDC49771774B8592B4B97BEF2E222FA9109B4674E,
+	U3CWaitForLoadedU3Ed__12_System_Collections_IEnumerator_Reset_m42563945B87D3B06469D340AFE4DD55D4BE2525B,
+	U3CWaitForLoadedU3Ed__12_System_Collections_IEnumerator_get_Current_m1EDE68E988103B4AEF699BECDA4C1EC06D724586,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	StandardShaderHelper_SetAlphaModeMask_m8A26F85CE31F43FAA8E9C41E4EAD1C0D0F143512,
+	StandardShaderHelper_SetAlphaModeBlend_mA4047BD1C21A4DA98705036EC32A057AF5A65143,
+	StandardShaderHelper_SetOpaqueMode_mDDA5BF66CE9E981CF2489C5A53E51C115F6BCBEB,
+	StandardShaderHelper__cctor_m3157A68718288A3E4EB54CE9198B03B81F444291,
+	CreateIndicesJob_Execute_m082110F5D1D9120051C9BB9BF14C6F6DAD10BBFE,
+	CreateIndicesFlippedJob_Execute_m7D3DA99D26AE72AB5FB0267ECC0FA2CBCC00E772,
+	GetIndicesUInt8Job_Execute_m1E1EF7047AC86369074C1DD13C64415CBB92A6E8,
+	GetIndicesUInt16Job_Execute_mEDF025F9C11DC8DC25FF34C0B787B9C1D548E0DD,
+	GetIndicesUInt32Job_Execute_m11CF0161540DA3718FD50E55AF12D302452CEDBE,
+	GetUVsUInt8Job_Execute_m5E90D0BAB15CD8081DD882DFEB84D38E03EC098B,
+	GetUVsUInt16Job_Execute_m22C37E395D37CB65C69C7373EE4A1D1C9D83CA95,
+	GetUVsFloatJob_Execute_m7192FBFE2638138736841122A2EAD9C79D4572C2,
+	GetUVsUInt8InterleavedJob_Execute_mD4A8BE018AE4493C8D71E4182420E243C0D66811,
+	GetUVsUInt16InterleavedJob_Execute_m6ADD4F5E6E96EDA8170E2B542B68293235A56327,
+	GetColorsVec3FloatJob_Execute_mA08BA8C628A19E20637EB91F15ED49D269E7FCD9,
+	GetColorsVec3UInt8Job_Execute_mFD2AD0A449E654EE04A463AF01D5F9B5D2042BC5,
+	GetColorsVec3UInt16Job_Execute_m01B173CD8333DB1B8534CDE58CEAAAD9CAE54876,
+	GetColorsVec4UInt16Job_Execute_m4DFB35A772675A03A7B7A7BDE00FCBFB2FC4DFE3,
+	MemCopyJob_Execute_m8688EE53E5F2971F1CB40D48CD77869BDDA01F83,
+	GetVector3sJob_Execute_m5A483D0EE74101F88E928F98708397F98ACCDDA2,
+	GetVector4sJob_Execute_m88FD8073557A669523B33C9B3AAFA6BFED1DC995,
+	GetVector2sInterleavedJob_Execute_mB6AD252A8A6EA79E525C091F926E72592B2AD31F,
+	GetVector3sInterleavedJob_Execute_m81BDDA306EC3D1DD7F1B1708D4A71FB1ECFBCE62,
+	GetVector4sInterleavedJob_Execute_m184C01B4C42D69B12D8388CB1AE485CDFE707B5C,
+};
+extern void GlbBinChunk__ctor_m24771AA604222A7C5D55C9D300314AE4E192B277_AdjustorThunk (void);
+extern void Primitive__ctor_m453B39E3CCFF0C0C89A85F74D688DDA32FD1A087_AdjustorThunk (void);
+extern void CreateIndicesJob_Execute_m082110F5D1D9120051C9BB9BF14C6F6DAD10BBFE_AdjustorThunk (void);
+extern void CreateIndicesFlippedJob_Execute_m7D3DA99D26AE72AB5FB0267ECC0FA2CBCC00E772_AdjustorThunk (void);
+extern void GetIndicesUInt8Job_Execute_m1E1EF7047AC86369074C1DD13C64415CBB92A6E8_AdjustorThunk (void);
+extern void GetIndicesUInt16Job_Execute_mEDF025F9C11DC8DC25FF34C0B787B9C1D548E0DD_AdjustorThunk (void);
+extern void GetIndicesUInt32Job_Execute_m11CF0161540DA3718FD50E55AF12D302452CEDBE_AdjustorThunk (void);
+extern void GetUVsUInt8Job_Execute_m5E90D0BAB15CD8081DD882DFEB84D38E03EC098B_AdjustorThunk (void);
+extern void GetUVsUInt16Job_Execute_m22C37E395D37CB65C69C7373EE4A1D1C9D83CA95_AdjustorThunk (void);
+extern void GetUVsFloatJob_Execute_m7192FBFE2638138736841122A2EAD9C79D4572C2_AdjustorThunk (void);
+extern void GetUVsUInt8InterleavedJob_Execute_mD4A8BE018AE4493C8D71E4182420E243C0D66811_AdjustorThunk (void);
+extern void GetUVsUInt16InterleavedJob_Execute_m6ADD4F5E6E96EDA8170E2B542B68293235A56327_AdjustorThunk (void);
+extern void GetColorsVec3FloatJob_Execute_mA08BA8C628A19E20637EB91F15ED49D269E7FCD9_AdjustorThunk (void);
+extern void GetColorsVec3UInt8Job_Execute_mFD2AD0A449E654EE04A463AF01D5F9B5D2042BC5_AdjustorThunk (void);
+extern void GetColorsVec3UInt16Job_Execute_m01B173CD8333DB1B8534CDE58CEAAAD9CAE54876_AdjustorThunk (void);
+extern void GetColorsVec4UInt16Job_Execute_m4DFB35A772675A03A7B7A7BDE00FCBFB2FC4DFE3_AdjustorThunk (void);
+extern void MemCopyJob_Execute_m8688EE53E5F2971F1CB40D48CD77869BDDA01F83_AdjustorThunk (void);
+extern void GetVector3sJob_Execute_m5A483D0EE74101F88E928F98708397F98ACCDDA2_AdjustorThunk (void);
+extern void GetVector4sJob_Execute_m88FD8073557A669523B33C9B3AAFA6BFED1DC995_AdjustorThunk (void);
+extern void GetVector2sInterleavedJob_Execute_mB6AD252A8A6EA79E525C091F926E72592B2AD31F_AdjustorThunk (void);
+extern void GetVector3sInterleavedJob_Execute_m81BDDA306EC3D1DD7F1B1708D4A71FB1ECFBCE62_AdjustorThunk (void);
+extern void GetVector4sInterleavedJob_Execute_m184C01B4C42D69B12D8388CB1AE485CDFE707B5C_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[22] = 
+{
+	{ 0x0600000F, GlbBinChunk__ctor_m24771AA604222A7C5D55C9D300314AE4E192B277_AdjustorThunk },
+	{ 0x06000032, Primitive__ctor_m453B39E3CCFF0C0C89A85F74D688DDA32FD1A087_AdjustorThunk },
+	{ 0x06000075, CreateIndicesJob_Execute_m082110F5D1D9120051C9BB9BF14C6F6DAD10BBFE_AdjustorThunk },
+	{ 0x06000076, CreateIndicesFlippedJob_Execute_m7D3DA99D26AE72AB5FB0267ECC0FA2CBCC00E772_AdjustorThunk },
+	{ 0x06000077, GetIndicesUInt8Job_Execute_m1E1EF7047AC86369074C1DD13C64415CBB92A6E8_AdjustorThunk },
+	{ 0x06000078, GetIndicesUInt16Job_Execute_mEDF025F9C11DC8DC25FF34C0B787B9C1D548E0DD_AdjustorThunk },
+	{ 0x06000079, GetIndicesUInt32Job_Execute_m11CF0161540DA3718FD50E55AF12D302452CEDBE_AdjustorThunk },
+	{ 0x0600007A, GetUVsUInt8Job_Execute_m5E90D0BAB15CD8081DD882DFEB84D38E03EC098B_AdjustorThunk },
+	{ 0x0600007B, GetUVsUInt16Job_Execute_m22C37E395D37CB65C69C7373EE4A1D1C9D83CA95_AdjustorThunk },
+	{ 0x0600007C, GetUVsFloatJob_Execute_m7192FBFE2638138736841122A2EAD9C79D4572C2_AdjustorThunk },
+	{ 0x0600007D, GetUVsUInt8InterleavedJob_Execute_mD4A8BE018AE4493C8D71E4182420E243C0D66811_AdjustorThunk },
+	{ 0x0600007E, GetUVsUInt16InterleavedJob_Execute_m6ADD4F5E6E96EDA8170E2B542B68293235A56327_AdjustorThunk },
+	{ 0x0600007F, GetColorsVec3FloatJob_Execute_mA08BA8C628A19E20637EB91F15ED49D269E7FCD9_AdjustorThunk },
+	{ 0x06000080, GetColorsVec3UInt8Job_Execute_mFD2AD0A449E654EE04A463AF01D5F9B5D2042BC5_AdjustorThunk },
+	{ 0x06000081, GetColorsVec3UInt16Job_Execute_m01B173CD8333DB1B8534CDE58CEAAAD9CAE54876_AdjustorThunk },
+	{ 0x06000082, GetColorsVec4UInt16Job_Execute_m4DFB35A772675A03A7B7A7BDE00FCBFB2FC4DFE3_AdjustorThunk },
+	{ 0x06000083, MemCopyJob_Execute_m8688EE53E5F2971F1CB40D48CD77869BDDA01F83_AdjustorThunk },
+	{ 0x06000084, GetVector3sJob_Execute_m5A483D0EE74101F88E928F98708397F98ACCDDA2_AdjustorThunk },
+	{ 0x06000085, GetVector4sJob_Execute_m88FD8073557A669523B33C9B3AAFA6BFED1DC995_AdjustorThunk },
+	{ 0x06000086, GetVector2sInterleavedJob_Execute_mB6AD252A8A6EA79E525C091F926E72592B2AD31F_AdjustorThunk },
+	{ 0x06000087, GetVector3sInterleavedJob_Execute_m81BDDA306EC3D1DD7F1B1708D4A71FB1ECFBCE62_AdjustorThunk },
+	{ 0x06000088, GetVector4sInterleavedJob_Execute_m184C01B4C42D69B12D8388CB1AE485CDFE707B5C_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[136] = 
+{
+	2191,
+	2191,
+	2191,
+	811,
+	521,
+	3946,
+	4632,
+	3611,
+	5509,
+	2996,
+	3611,
+	3583,
+	2973,
+	3611,
+	1507,
+	3583,
+	2994,
+	5352,
+	3611,
+	1637,
+	2186,
+	2534,
+	1637,
+	2973,
+	3559,
+	3559,
+	2534,
+	1522,
+	2186,
+	1184,
+	1522,
+	1264,
+	2182,
+	1775,
+	3559,
+	3611,
+	1637,
+	989,
+	1188,
+	3611,
+	2973,
+	655,
+	655,
+	2973,
+	239,
+	103,
+	2534,
+	2534,
+	5509,
+	1633,
+	3583,
+	3454,
+	3611,
+	3583,
+	3454,
+	3611,
+	3611,
+	3583,
+	3454,
+	3611,
+	2954,
+	3611,
+	3583,
+	3611,
+	3559,
+	3611,
+	3559,
+	2954,
+	3611,
+	3583,
+	3611,
+	3559,
+	3611,
+	3559,
+	2954,
+	3611,
+	3583,
+	3611,
+	3559,
+	3611,
+	3559,
+	3611,
+	1637,
+	3559,
+	2186,
+	2973,
+	3559,
+	3611,
+	3611,
+	2954,
+	3611,
+	3583,
+	3559,
+	3611,
+	3559,
+	2954,
+	3611,
+	3583,
+	3559,
+	3611,
+	3559,
+	2954,
+	3611,
+	3583,
+	3559,
+	3611,
+	3559,
+	3611,
+	3583,
+	2191,
+	2191,
+	521,
+	5100,
+	5445,
+	5445,
+	5509,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+	3611,
+};
+extern const CustomAttributesCacheGenerator g_glTFast_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_glTFast_CodeGenModule;
+const Il2CppCodeGenModule g_glTFast_CodeGenModule = 
+{
+	"glTFast.dll",
+	136,
+	s_methodPointers,
+	22,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_glTFast_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
