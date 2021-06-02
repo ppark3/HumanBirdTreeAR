@@ -17,7 +17,7 @@ Currently, the application has only been tested on iOS devices, but it should wo
 
 ## Important Notes
 - The models may take a bit of time to load in at first, so please be patient! Once the models load in on one body, they will load in much quicker for every subsequent body. 
-- The models will spawn randomly on the different body parts, so there is not a way to determine where to models will end up on the body. 
+- The models will spawn randomly on the different body parts, so there is not a way to determine which models will end up on which body parts. 
 - You will most likely need to [adjust the scale of these models](https://docs.echoar.xyz/web-console/manage-pages/data-page/how-to-add-data#adding-metadata) yourself. Do note that the models in this application will **only be updated every time a new body is detected**. So to change the scale of these models in real time, update the metadata on the console, look away from the targeted human body, and then look back at the desired human body. 
 - If you do not want to go through the hassle of scaling and matching these models yourself, feel free to search for and use the models that I used as well as their scale metadata.
 ![image](https://user-images.githubusercontent.com/31756724/120035425-980aa480-bfcc-11eb-8039-1f79cc77f4de.png)
