@@ -1,6 +1,6 @@
 # HumanBirdTreeAR
 
-This application places 3D models of birds on specific parts of a person's body--specifically, the head, the shoulder, the right hand, and the floor right next to the left foot. If you'd like to deviate from birds, you can also use whatever 3D models you'd like.
+This application places 3D models of birds on specific parts of a person's body--specifically, the head, the shoulder, the right hand, and the floor right next to the left foot. If you'd like to deviate from birds, you can also use whatever 3D models you'd like. Note that this application only works on iOS devices with A12 chips or newer. 
 
 ## Register
 Don't have an API key? Make sure to register for FREE at [echoAR](https://console.echoar.xyz).
@@ -13,7 +13,7 @@ Don't have an API key? Make sure to register for FREE at [echoAR](https://consol
 
 ## Build and Run
 [Build and run the AR application](https://docs.echoar.xyz/unity/adding-ar-capabilities#4-build-and-run-the-ar-application). 
-Currently, the application has only been tested on iOS devices, but it should work on Android devices as well. 
+Currently, the application only works on iOS devices with an A12 chip or newer. 
 
 ## Important Notes
 - The models may take a bit of time to load in at first, so please be patient! Once the models load in on one body, they will load in much quicker for every subsequent body. 
