@@ -59,7 +59,7 @@ static const int32_t s_InvokerIndices[11] =
 	3559,
 	3559,
 	3559,
-	5352,
+	5354,
 	3894,
 };
 extern const CustomAttributesCacheGenerator g_UnityEngine_UnityWebRequestAssetBundleModule_AttributeGenerators[];

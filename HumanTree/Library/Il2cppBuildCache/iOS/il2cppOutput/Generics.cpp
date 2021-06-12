@@ -26027,7 +26027,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__1_1_U3CSubscribeToTextU3Eb__1_0
 		String_t* L_1;
 		L_1 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)(int32_t*)(&___x0), /*hidden argument*/NULL);
 		NullCheck((Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
 		return;
 	}
 }
@@ -26067,7 +26067,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__1_1_U3CSubscribeToTextU3Eb__1_0
 		String_t* L_1;
 		L_1 = Int64_ToString_m8AAA883F340993DCDF339C208F3416C3BA82589F((int64_t*)(int64_t*)(&___x0), /*hidden argument*/NULL);
 		NullCheck((Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
 		return;
 	}
 }
@@ -26173,7 +26173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__1_1_U3CSubscribeToTextU3Eb__1_0
 		String_t* L_1;
 		L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, (RuntimeObject *)(___x0));
 		NullCheck((Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_1);
 		return;
 	}
 }
@@ -26459,7 +26459,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__2_1_U3CSubscribeToTextU3Eb__2_0
 		String_t* L_3;
 		L_3 = ((  String_t* (*) (Func_2_t060A650AB95DEF14D4F579FA5999ACEFEEE0FD82 *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3)->methodPointer)((Func_2_t060A650AB95DEF14D4F579FA5999ACEFEEE0FD82 *)L_1, (RuntimeObject *)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
 		NullCheck((Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_3);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_3);
 		return;
 	}
 }
@@ -26502,7 +26502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__2_1_U3CSubscribeToTextU3Eb__2_0
 		String_t* L_3;
 		L_3 = ((  String_t* (*) (Func_2_t557464437C03A4FBA07635260F8075F8249A7CB8 *, float, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3)->methodPointer)((Func_2_t557464437C03A4FBA07635260F8075F8249A7CB8 *)L_1, (float)L_2, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 3));
 		NullCheck((Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0);
-		VirtActionInvoker1< String_t* >::Invoke(73 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_3);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, (Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 *)L_0, (String_t*)L_3);
 		return;
 	}
 }
